@@ -1,0 +1,20 @@
+
+#Cria variável do tipo inteiro
+x = 42
+print(x)
+
+#Cria variável do tipo float
+y = 3.14
+print(y)
+
+#Cria variável do tipo string
+m = "Python"
+m = 'Python'
+print(m)
+
+#Cria variável do tipo lógica
+w = verdadeiro
+y = Falso
+print(y)
+print(w)
+
