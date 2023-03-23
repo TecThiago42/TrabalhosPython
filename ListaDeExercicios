@@ -3,18 +3,31 @@
 x = 42
 print(x)
 
+42
+
+
 #Cria variável do tipo float
 y = 3.14
 print(y)
+
+3,14
+
 
 #Cria variável do tipo string
 m = "Python"
 m = 'Python'
 print(m)
 
+Python
+
 #Cria variável do tipo lógica
-w = verdadeiro
+w = Verdadeiro
 y = Falso
 print(y)
+
+Verdadeiro
+
 print(w)
+
+Falso
 
