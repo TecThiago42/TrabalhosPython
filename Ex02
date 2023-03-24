@@ -1,8 +1,0 @@
-#calculadora
-x = 40
-y = 20
-z = 60
-w = (x + y) * z / 1000
-print(w)
-
-3.6
