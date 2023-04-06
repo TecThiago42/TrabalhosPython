@@ -1,5 +1,101 @@
 
 Exercicios Dos Slides 
 
+----------------------------------------------------------------------
+
 Ex-pag-88
 
+
+Prova1 = float(input("Digite a Nota da Primeira Prova: "))
+
+Prova2= float(input("Digite a Nota da Segunda Prova: "))
+
+Nota_Trabalho = float(input("Digite a Nota do Trabalho: "))
+
+Media = (Prova1 + Prova2) * 0.7 + Nota_Trabalho * 0.3 
+
+print("A média final do aluno é: ", Media)
+
+------------------------------------------------------------------------
+
+Ex-pag-94
+
+
+angulo = float(input("Digite um ângulo em graus: "))
+
+if angulo >= 0:
+
+    if angulo <= 90:
+        print("O ângulo está no primeiro quadrante.")
+    elif angulo <= 180:
+        print("O ângulo está no segundo quadrante.")
+    elif angulo <= 270:
+        print("O ângulo está no terceiro quadrante.")
+    else:
+        print("O ângulo está no quarto quadrante.")
+else:
+
+    if angulo >= -90:
+        print("O ângulo está no quarto quadrante.")
+    elif angulo >= -180:
+        print("O ângulo está no terceiro quadrante.")
+    elif angulo >= -270:
+        print("O ângulo está no segundo quadrante.")
+    else:
+        print("O ângulo está no primeiro quadrante.")
+        
+------------------------------------------------------------------------
+
+Ex-pag-102
+
+
+a1 = 2
+r = 3
+
+termo = a1
+soma = a1
+
+print("Termos da PA: ", end='')
+
+while termo <= 100:
+    print(termo, end=' ')
+    termo = termo + r
+    soma = soma + termo
+
+print("\nSoma dos termos da PA: ", soma - termo)
+
+-------------------------------------------------------------------------
+
+Ex-pag-105
+
+
+Quant_Alunos = int(input("Digite a quantidade de alunos: "))
+
+soma_notas = 0
+
+for i in range(Quant_Alunos):
+
+    nota = float(input("Digite a nota do aluno {}: ".format(i+1)))
+    soma_notas += nota
+
+media = soma_notas / Quant_Alunos
+
+print("A média da turma é:", media)
+
+-------------------------------------------------------------------------
+
+Ex-pag-109
+
+
+matriz = []
+for i in range(3):
+    linha = []
+    for j in range(3):
+        valor = int(input(f"Digite o valor para a posição [{i}, {j}]: "))
+        linha.append(valor)
+    matriz.append(linha)
+
+soma = 0
+for i in range(3):
+    soma += matriz[i][i]
+print("A soma da diagonal principal da matriz é:", soma)
