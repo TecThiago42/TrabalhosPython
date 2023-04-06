@@ -1,1 +1,47 @@
 
+#funções internas
+
+---------------------------------------------------
+
+print(abs(-20))
+
+20
+
+lst = [13,2,304,30,4445]
+print("Maior valor: ", max(lst))
+
+Maior valor: 4445
+
+print("Menor valor: ", min(lst))
+
+Menor valor: 2
+
+print("Soma: ", sum(lst))
+
+Soma: 4794
+
+print("Arredondamento: ", round(2.34567,2))
+
+Arredondamento: 2.35
+
+----------------------------------------------------------
+
+#statistica
+
+from statistics import *
+print("Média: ", mean(lst))
+print("Mediana: ", median(lst))
+print("Moda: ", mode(lst))
+
+
+#desvio padrão da amostra
+print("Desvio padrão: ", stdev(lst))
+
+
+#variancia da amostra
+
+print("Variância: ", variance(lst))
+from numpy import *
+a = random.random((8,8))
+print(type(a))
+print(a)
