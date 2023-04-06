@@ -33,10 +33,12 @@ print("Média: ", mean(lst))
 print("Mediana: ", median(lst))
 print("Moda: ", mode(lst))
 
+-----------------------------------------------------------
 
 #desvio padrão da amostra
 print("Desvio padrão: ", stdev(lst))
 
+------------------------------------------------------------
 
 #variancia da amostra
 
